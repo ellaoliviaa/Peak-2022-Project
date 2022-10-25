@@ -10,7 +10,7 @@ open Android.Widget
 
 type Resources = App7.Resource
 
-[<Activity (Label = "Peak Investing", MainLauncher = true, Icon = "@mipmap/icon")>]
+[<Activity (Label = "PEAK", MainLauncher = true, Icon = "@mipmap/icon")>]
 type MainActivity () =
     inherit Activity ()
 
