@@ -10,7 +10,7 @@ open Android.Widget
 
 type Resources = App7.Resource
 
-[<Activity (Label = "PEAK", MainLauncher = true, Icon = "@mipmap/icon")>]
+[<Activity (Label = "Peak Investing", MainLauncher = true, Icon = "@mipmap/icon")>]
 type MainActivity () =
     inherit Activity ()
 
@@ -26,7 +26,7 @@ type MainActivity () =
         // Get our button from the layout resource, and attach an event to it
         let button = this.FindViewById<Button>(Resources.Id.myButton)
         button.Click.Add (fun args -> 
-            button.Text <- sprintf "%d clicks!" count
+            button.Text <- sprintf "%d investors!" count
             count <- count + 1
-        )
 
+)

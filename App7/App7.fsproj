@@ -20,9 +20,9 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <Name>App7</Name>
     <SelectedDevice>pixel_5_-_api_30</SelectedDevice>
-    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
-    <ActiveDebugProfile>pixel_5_-_api_30 (Android 11.0 - API 30)</ActiveDebugProfile>
-    <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
+    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <ActiveDebugProfile>Pixel 5 - API 30 (Android 11.0 - API 30)</ActiveDebugProfile>
+    <DefaultDevice>pixel_5_-_api_30</DefaultDevice>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
