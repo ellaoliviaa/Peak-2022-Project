@@ -29,4 +29,6 @@ type MainActivity () =
             button.Text <- sprintf "%d investors!" count
             count <- count + 1
 
+        // Centre Label
+       
 )
